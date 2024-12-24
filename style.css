@@ -1,0 +1,102 @@
+/* General Wallet Design */
+.wallet {
+    width: 400px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.wallet-header {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+#username {
+    font-size: 1.5em;
+}
+
+#balance-info {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.wallet-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.wallet-deposit, .wallet-withdraw {
+    width: 45%;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+input[type="number"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #444;
+    color: white;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+.wallet-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy-policy, .terms-of-service {
+    background-color: transparent;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.privacy-policy:hover, .terms-of-service:hover {
+    color: #ccc;
+}
+
+/* Password Field Styling */
+#withdraw-password {
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wallet built using functional programming</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="wallet">
+        <div class="wallet-header">
+            <h2 id="username">MyWallet</h2>
+            <p id="balance-info">Wallet Balance: $0.00</p> <!-- Dynamically updated -->
+        </div>
+
+        <div class="wallet-actions">
+            <div class="wallet-deposit">
+                <label for="deposit-amount">Deposit Amount</label>
+                <input type="number" id="deposit-amount" placeholder="Enter amount to deposit">
+                <button id="deposit-btn">Deposit</button>
+            </div>
+
+            <div class="wallet-withdraw">
+                <label for="withdraw-amount">Withdraw Amount</label>
+                <input type="number" id="withdraw-amount" placeholder="Enter amount to withdraw">
+
+                <!-- Password field for withdrawal -->
+                <label for="withdraw-password">Enter Password</label>
+                <input type="password" id="withdraw-password" placeholder="Enter your password">
+
+                <button id="withdraw-btn">Withdraw</button>
+            </div>
+        </div>
+
+        <div class="wallet-footer">
+            <button class="privacy-policy">Privacy Policy</button>
+            <button class="terms-of-service">Terms of Service</button>
+        </div>
+    </div>
+</body>
+
+</html>
